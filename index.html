@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <table class="table w-auto mx-auto mt-5 border shadow">
+                    <tbody>
+                        <tr>
+                            <td colspan="3"><input id="kijelzo" value="0" disabled></td>
+                            <td><button class="btn btn-outline-danger" onclick="clicked(this)">C</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn btn-outline-warning" onclick="clicked(this)">&larr;</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">/</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">*</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">7</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">8</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">9</button></td>
+                            <td rowspan="2"><button class="btn btn-outline-secondary" onclick="clicked(this)">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">4</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">5</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">6</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">1</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">2</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">3</button></td>
+                            <td rowspan="2"><button class="btn btn-outline-success" onclick="clicked(this)">Enter</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="btn btn-outline-secondary" onclick="clicked(this)">0</button></td>
+                            <td><button class="btn btn-outline-secondary" onclick="clicked(this)">.</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

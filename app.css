@@ -1,0 +1,16 @@
+td{
+    width: 100px;
+    height: 80px;
+    border-bottom: none;
+}
+
+button, input{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+}
+
+input{
+    text-align: right;
+    padding: 2px 5px;
+}
